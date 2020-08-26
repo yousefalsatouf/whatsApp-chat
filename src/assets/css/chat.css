@@ -1,0 +1,106 @@
+.chat
+{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__header 
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat__headerInfo
+{
+    flex: 1;
+    padding-left: 20px ;
+}
+
+.chat__headerInfo > h3
+{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat__headerInfo > p
+{
+    color: gray;
+}
+
+.chat__headerRight
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chat__body
+{
+    flex: 1;
+    background-image: url('../img/whatsapp.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 20px;
+    overflow: scroll;  
+    display: flex;
+    flex-flow: column;
+}
+
+.chat__sender
+{
+    background-color: white;
+    padding: 15px;
+    margin-top: 50px;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+    font-size: large;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+.chat__sender .chat__user
+{
+    position: absolute;
+    top: -25px;
+}
+
+.chat__sender .chat__timestamp
+{
+    font-size: x-small;
+    margin-left: 30px;
+}
+
+.chat__reciever
+{
+    background-color: #DBFAC6;
+    align-self: flex-end;
+}
+
+.chat__footer
+{
+    display: flex;
+    padding: 20px;
+}
+
+.chat__footer > input
+{
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.chat__footer .submit
+{
+    border: none;
+}
+
+.chat__footer > button
+{
+    color: gray;
+}

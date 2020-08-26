@@ -1,0 +1,30 @@
+.login
+{
+    background-color: #f8f8f8;
+    height: 30vh;
+    width: 30vw;
+    display: grid;
+    place-content: center;
+}
+
+
+.login__container
+{
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.login__container > img
+{
+    max-width: 100%;
+}
+
+.login__container > button
+{
+    color: green;
+    margin-top: 50px;
+    font-weight: 900;
+}
